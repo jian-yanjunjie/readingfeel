@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lanqiao.yhxxgl.dao.SendMapper">
+<!-- 	<resultMap type="org.lanqiao.yhxxgl.entity.UserInfo" id="UserResult"> -->
+<!-- 		<id property="userinfoId" column="userinfo_id"/> -->
+<!-- 		<result property="userinfoNum" column="userinfo_num"/> -->
+<!-- 		<result property="userinfoPwd" column="userinfo_pwd"/> -->
+<!-- 		<result property="userinfoNick" column="userinfo_nick"/> -->
+<!-- 		<result property="userinfoEmail" column="userinfo_email"/> -->
+<!-- 		<result property="userinfoIntroduce" column="userinfo_introduce"/> -->
+<!-- 	</resultMap> -->
+	
+	<resultMap type="org.lanqiao.yhxxgl.entity.BookInfo" id="UserResult">
+		<id property="bookinfoId" column="bookinfo_id"/>
+		<result property="bookTheme" column="book_theme"/>
+		<result property="bookWords" column="book_words"/>
+		<result property="bookUser" column="book_user"/>
+		<result property="bookCreattime" column="book_creattime"/>
+		<result property="bookHitcount" column="book_hitcount"/>
+		<result property="bookIstop" column="book_istop"/>
+		<result property="bookPostid" column="book_postid"/>
+		<result property="bookAnswertime" column="book_answertime"/>
+		<result property="bookUpperid" column="book_upperid"/>
+	</resultMap>
+	
+	
+</mapper>

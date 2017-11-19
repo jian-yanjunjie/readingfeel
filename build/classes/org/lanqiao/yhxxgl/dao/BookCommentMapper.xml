@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lanqiao.yhxxgl.dao.BookCommentMapper">
+	<resultMap type="org.lanqiao.yhxxgl.entity.CommentBook" id="UserResult">
+		<id property="id" column="id"/>
+		<result property="bookinfoId" column="bookinfo_id"/>
+		<result property="users" column="users"/>
+		<result property="answertime" column="answertime"/>
+		<result property="object" column="object"/>
+		<result property="words" column="words"/>
+		<result property="sortId" column="sort_id"/>
+	</resultMap>
+</mapper>
